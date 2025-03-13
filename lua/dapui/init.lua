@@ -24,12 +24,12 @@
 ---   })
 --- ```
 ---
---- The default icons use codicons(https://github.com/microsoft/vscode-codicons).
---- It's recommended to use this fork(https://github.com/ChristianChiarulli/neovim-codicons)
+--- The default icons use [codicons](https://github.com/microsoft/vscode-codicons).
+--- It's recommended to use [this fork](https://github.com/ChristianChiarulli/neovim-codicons)
 --- which fixes alignment issues for the terminal. If your terminal doesn't
 --- support font fallback and you need to have icons included in your font,
---- you can patch it via Font Patcher(https://github.com/ryanoasis/nerd-fonts#option-8-patch-your-own-font).
---- There is a simple step by step guide here: https://github.com/mortepau/codicons.nvim#how-to-patch-fonts.
+--- you can [patch it via Font Patcher](https://github.com/ryanoasis/nerd-fonts#option-8-patch-your-own-font).
+--- There is a [simple step by step guide](https://github.com/mortepau/codicons.nvim#how-to-patch-fonts).
 
 local success, _ = pcall(require, "nio")
 if not success then
